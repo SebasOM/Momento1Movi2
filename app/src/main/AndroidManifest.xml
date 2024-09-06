@@ -13,6 +13,15 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".Orca"
+            android:exported="false" />
+        <activity
+            android:name=".Aguila"
+            android:exported="false" />
+        <activity
+            android:name=".Leon"
+            android:exported="false" />
+        <activity
             android:name=".carnivoros"
             android:exported="false" />
         <activity
