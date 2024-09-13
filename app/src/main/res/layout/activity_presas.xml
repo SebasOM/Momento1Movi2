@@ -10,99 +10,126 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="284dp"
-        android:layout_height="173dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="91dp"
         android:src="@drawable/gacela"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
-        android:textColor="@color/white"
         android:text="Gacela"
+        android:textColor="@color/white"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ver"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#732002"
+        android:text="Ver"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="284dp"
-        android:layout_height="173dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="99dp"
         android:src="@drawable/conejo"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="24dp"
         android:backgroundTint="#732002"
         android:text="Ver"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="543dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/textView13" />
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="284dp"
-        android:layout_height="173dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="103dp"
         android:src="@drawable/foca"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="615dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ver"
+        android:layout_marginBottom="34dp"
         android:backgroundTint="#732002"
+        android:text="Ver"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="809dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ver"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="18dp"
         android:backgroundTint="#732002"
+        android:text="Ver"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="13dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
         android:fontFamily="@font/aclonica"
         android:text="Conejo"
         android:textColor="@color/white"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="343dp" />
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
         android:fontFamily="@font/aclonica"
         android:text="Foca"
         android:textColor="@color/white"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="615dp" />
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
