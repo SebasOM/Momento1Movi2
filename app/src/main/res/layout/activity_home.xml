@@ -10,13 +10,13 @@
 
     <Button
         android:id="@+id/Carnívoros"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="188dp"
+        android:layout_height="45dp"
         android:layout_marginStart="31dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="127dp"
         android:backgroundTint="#732002"
-        android:text="Carnívoros"
+        android:text="Depredadores"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Hervíboros"
@@ -25,11 +25,11 @@
 
     <Button
         android:id="@+id/Hervíboros"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="168dp"
+        android:layout_height="47dp"
         android:layout_marginEnd="40dp"
         android:backgroundTint="#732002"
-        android:text="Hervíboros"
+        android:text="Presas"
         android:textSize="20dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/Carnívoros"
         app:layout_constraintEnd_toEndOf="parent"

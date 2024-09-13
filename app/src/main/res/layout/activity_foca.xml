@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9A86C"
+    tools:context=".Foca">
+
+  <TextView
+      android:id="@+id/textView17"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/aclonica"
+      android:text="Foca"
+      android:textColor="@color/white"
+      android:textSize="30dp"
+      tools:layout_editor_absoluteX="166dp"
+      tools:layout_editor_absoluteY="53dp" />
+
+  <ImageView
+      android:id="@+id/imageView14"
+      android:layout_width="358dp"
+      android:layout_height="281dp"
+      app:srcCompat="@drawable/foca2"
+      tools:layout_editor_absoluteX="23dp"
+      tools:layout_editor_absoluteY="155dp" />
+
+  <TextView
+      android:id="@+id/textView18"
+      android:layout_width="369dp"
+      android:layout_height="260dp"
+      android:fontFamily="@font/aclonica"
+      android:text="Si bien suelen comer otros animales mas pequeños, tambien tienen varios depredadores. Suelen sumergirse a grandes profundidades y tienen varios metodos de alimentacion."
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="25dp"
+      tools:layout_editor_absoluteX="16dp"
+      tools:layout_editor_absoluteY="463dp" />
+
+  <Button
+      android:id="@+id/button13"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:backgroundTint="#732002"
+      android:text="Volver"
+      android:textSize="20dp"
+      tools:layout_editor_absoluteX="152dp"
+      tools:layout_editor_absoluteY="760dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

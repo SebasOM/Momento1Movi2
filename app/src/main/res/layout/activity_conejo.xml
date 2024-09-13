@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9A86C"
+    tools:context=".Conejo">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Conejo"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="365dp"
+        android:layout_height="258dp"
+        app:srcCompat="@drawable/conejo2"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="378dp"
+        android:layout_height="203dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Tienen varias razas y se distribuyen a lo largo del mundo. Suelen vivir en matorrales bajo tierra y algunos se usan como mascotas."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#732002"
+        android:text="Volver"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="735dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
