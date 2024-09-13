@@ -10,41 +10,58 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="347dp"
-        android:layout_height="340dp"
-        app:srcCompat="@drawable/leon2"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="90dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/leon2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="24dp"
         android:fontFamily="@font/aclonica"
         android:text="León"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="299dp"
-        android:layout_height="179dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="74dp"
         android:fontFamily="@font/aclonica"
         android:text="Son mamiferos que viven en las sabanas, y a pesar de tener un
                       apetito voraz, pasan la mayor parte del tiempo durmiendo."
         android:textAlignment="center"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="479dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="111dp"
         android:backgroundTint="#732002"
         android:text="Volver"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="732dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

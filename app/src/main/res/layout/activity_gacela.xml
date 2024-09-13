@@ -12,40 +12,57 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="62dp"
         android:fontFamily="@font/aclonica"
         android:text="Gacela"
         android:textColor="@color/white"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="47dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="349dp"
-        android:layout_height="274dp"
-        app:srcCompat="@drawable/gacela"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="150dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/gacela" />
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="339dp"
-        android:layout_height="219dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="75dp"
         android:fontFamily="@font/aclonica"
         android:text="Corredores rapidos con largas patas que viven en las sabanas. Si bien tienen varios depredadores, se las arreglan para sobrevivir de diferentes formas."
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="441dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
         android:backgroundTint="#732002"
         android:text="Volver"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="735dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 </androidx.constraintlayout.widget.ConstraintLayout>

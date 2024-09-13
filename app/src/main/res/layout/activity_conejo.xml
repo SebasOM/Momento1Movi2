@@ -12,40 +12,57 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="55dp"
         android:fontFamily="@font/aclonica"
         android:text="Conejo"
         android:textColor="@color/white"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="67dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="365dp"
-        android:layout_height="258dp"
-        app:srcCompat="@drawable/conejo2"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="163dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/conejo2" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="378dp"
-        android:layout_height="203dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="59dp"
         android:fontFamily="@font/aclonica"
         android:text="Tienen varias razas y se distribuyen a lo largo del mundo. Suelen vivir en matorrales bajo tierra y algunos se usan como mascotas."
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="473dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
         android:backgroundTint="#732002"
         android:text="Volver"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="735dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 </androidx.constraintlayout.widget.ConstraintLayout>
